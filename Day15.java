@@ -15,14 +15,12 @@ public class Day15 {
     // Operator penjumlahan
     int tambah = a + b;
     
-    // Operator penjumlahan
+    // Operator pengurangan
     double kurang = c - d;
 
     System.out.println(tambah);
-    System.out.println(kurang);
-
-
-    
+    System.out.println(kurang);    
   }
 
 }
+
