@@ -7,11 +7,21 @@ public class Day26 {
      */
 
     int a = 2;
-
+    System.out.println("nilai a = " + a);
+    
     a += 5; // sama saja dengan a = a + 5;
+    System.out.println("setelah update (+=) nilai a = " + a);
+    
     a -= 3; // sama saja dengan a = a - 3;
+    System.out.println("setelah update (-=) nilai a = " + a);
+    
     a *= 2; // sama saja dengan a = a * 2;
+    System.out.println("setelah update (*=) nilai a = " + a);
+
     a /= 2; // sama saja dengan a = a / 2;
+    System.out.println("setelah update (/=) nilai a = " + a);
+
     a %= 2; // sama saja dengan a = a % 2;
+    System.out.println("setelah update (%=) nilai a = " + a);
   }
 }
