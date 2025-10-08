@@ -11,8 +11,9 @@ public class Day31 {
     int z = 2;
 
     System.out.println("bilangan paling besar di antara ke 3 variable: ");
-    System.out.printf("x adalah paling besar, %b%n",(x > y) && (x > y)); // false
+    System.out.printf("x adalah paling besar, %b%n",(x > y) && (x > z)); // false
     System.out.printf("y adalah paling besar, %b%n",(y > x) && (y > z)); // false
     System.out.printf("z adalah paling besar, %b%n",(z > x) && (z > y)); // true
   }
+
 }
