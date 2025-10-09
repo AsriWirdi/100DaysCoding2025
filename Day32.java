@@ -1,4 +1,3 @@
-
 public class Day32 {
   public static void main(String[] args) {
 
@@ -17,4 +16,5 @@ public class Day32 {
     System.out.println("Diterima: " + syarat);
   }
 }
+
 
