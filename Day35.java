@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Day35 {
   public static void main(String[] args) {
 
@@ -6,9 +8,13 @@ public class Day35 {
      * Day 35: Percabangan (if)
      */
 
-    int angka = 11;
-    boolean ganjil = angka % 2 == 1;
-    System.out.println("apakah angka: " + angka + " ganjil? " + ganjil);
+    Scanner sc = new Scanner(System.in);
+
+    int angka = sc.nextInt();
+    if (angka % 2 == 1) {
+      System.out.println("Ganjil");
+    } else{
+      System.out.println("Genap");
+    }
   }
 }
-
