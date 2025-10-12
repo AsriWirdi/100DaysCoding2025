@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Day35 {
   public static void main(String[] args) {
 
@@ -13,3 +11,4 @@ public class Day35 {
     System.out.println("apakah angka: " + angka + " ganjil? " + ganjil);
   }
 }
+
