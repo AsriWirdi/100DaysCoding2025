@@ -10,18 +10,15 @@ public class Day40 {
 
     Scanner sc = new Scanner(System.in);
 
-    System.out.println("Pilihan menu Kalkulator: ");
-    System.out.println("+");
-    System.out.println("-");
-    System.out.println("/");
-    System.out.println("*");
-    System.out.println("%");
+    System.out.print("Pilihan menu Kalkulator: ");
+    System.out.println("+ - / * ");
 
     System.out.println();
-    int a = sc.nextInt();
+    double a = sc.nextDouble();
     char operator = sc.next().charAt(0);
-    int b = sc.nextInt();
-    int hasil = 0;
+    double b = sc.nextDouble();
+
+    double hasil;
 
     if (operator == '+') {
       hasil = a + b;
@@ -38,6 +35,6 @@ public class Day40 {
       return;
     }
 
-    System.out.printf("%d %c %d = %d", a, operator, b, hasil);
+    System.out.printf("%.1f %c %.1f = %.2f", a, operator, b, hasil);
   }
 }
