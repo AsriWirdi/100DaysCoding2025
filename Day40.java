@@ -11,7 +11,7 @@ public class Day40 {
     Scanner sc = new Scanner(System.in);
 
     System.out.print("Pilihan menu Kalkulator: ");
-    System.out.println("+ - / * ");
+    System.out.println("+ - / * %");
 
     System.out.println();
     double a = sc.nextDouble();
