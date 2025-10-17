@@ -14,8 +14,11 @@ public class Day40 {
     System.out.println("+ - / * %");
 
     System.out.println();
+    System.out.print("masukkan inputan pertama: ");
     double a = sc.nextDouble();
+    System.out.print("masukkan operator (+ - / * %): ");
     char operator = sc.next().charAt(0);
+    System.out.print("masukkan inputan kedua: ");
     double b = sc.nextDouble();
 
     double hasil;
