@@ -4,7 +4,7 @@ public class Day49 {
   public static void main(String[] args) {
     /*
      * 100 Days Of Coding 2025
-     * Day 4 : Operator Ternary
+     * Day 49 : Operator Ternary
      */
 
     Scanner sc = new Scanner(System.in);
@@ -15,4 +15,5 @@ public class Day49 {
     boolean isGanjil = (n % 2 == 1) ? true : false;
     System.out.println(isGanjil);
   }
+
 }
