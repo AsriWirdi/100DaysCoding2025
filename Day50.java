@@ -8,11 +8,11 @@ public class Day50 {
      */
 
     Scanner sc = new Scanner(System.in);
-    System.out.println("program cek bilangan ganjil");
+    System.out.println("program cek bilangan ganjil atau genap");
     System.out.print("masukkan angka: ");
     int n = sc.nextInt();
 
-    boolean isGanjil = (n % 2 == 1) ? true : false;
-    System.out.println(isGanjil);
+    String ganjilGenap = (n % 2 == 1) ? "ganjil" : "genap";
+    System.out.println(ganjilGenap);
   }
 }
