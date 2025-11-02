@@ -36,13 +36,13 @@ public class Day56 {
           System.out.println("Login Sebagai Pengguna");
           return;
         } else {
-          percobaan++;
           continue;
         }
       }
 
       System.out.println("Silahkan Coba Lagi");
-    } while (percobaan <= 3);
+      percobaan++;
+    } while (percobaan < 3);
     System.out.println("Login Gagal");
   }
 }
