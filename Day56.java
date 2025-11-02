@@ -23,15 +23,17 @@ public class Day56 {
       System.out.print("Password : ");
       String pw = sc.next();
 
+      if (usn.equalsIgnoreCase("admin") && pw.equalsIgnoreCase("admin")) {
+        System.out.println("Login Sebagai Admin");
+        return;
+      }
+
       for (int i = 0; i < accountsPw.length; i++) {
         usnSaatIni = accountsUsn[i];
         pwSaatIni = accountsPw[i];
 
         if (usnSaatIni.equalsIgnoreCase(usn) && pwSaatIni.equalsIgnoreCase(pw)) {
           System.out.println("Login Sebagai Pengguna");
-          return;
-        } else if (usn.equalsIgnoreCase("admin") && pw.equalsIgnoreCase("admin")) {
-          System.out.println("Login Sebagai Admin");
           return;
         } else {
           percobaan++;
