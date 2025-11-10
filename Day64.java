@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Day64 {
+  public static void main(String[] args) {
+    /*
+     * 100 Days Of Coding 2025
+     * Day 64 : Latihan: Mencetak hasil M pangkat N
+     */
+    Scanner sc = new Scanner(System.in);
+
+    System.out.print("Masukkan Angka : ");
+    int m = sc.nextInt();
+    System.out.print("Masukkan Pangkat : ");
+    int n = sc.nextInt();
+    int hasil = 1;
+
+    for (int i = 1; i <= n; i++) {
+      hasil *= m;
+    }
+    System.out.println(hasil);
+  }
+}
