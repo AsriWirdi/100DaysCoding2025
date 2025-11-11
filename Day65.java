@@ -4,7 +4,7 @@ public class Day65 {
   public static void main(String[] args) {
     /*
      * 100 Days Of Coding 2025
-     * Day 64 : Latihan: Membuat Bilangan Faktorial
+     * Day 65 : Latihan: Membuat Bilangan Faktorial
      */
     Scanner sc = new Scanner(System.in);
 
