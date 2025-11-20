@@ -2,11 +2,11 @@ import java.util.Scanner;
 
 public class Day74 {
     public static void main(String[] args) {
-     /*
-      * 100 Days Of Coding 2025
-      * Day 74 : Latihan: do while: Membuat Menu Berulang
-      */
-      
+        /*
+         * 100 Days Of Coding 2025
+         * Day 74 : Latihan: do while: Membuat Menu Berulang
+         */
+
         Scanner sc = new Scanner(System.in);
 
         int pilihanMenu, jumlah, harga = 0;
@@ -14,7 +14,7 @@ public class Day74 {
         String daftarPesanan = "";
         boolean lanjutPesan = true;
 
-        while (lanjutPesan) {
+        do {
 
             System.out.println("\n=== WARUNG SEDERHANA ===");
             System.out.println("1. Nasi Goreng   - Rp15000");
@@ -49,7 +49,7 @@ public class Day74 {
                     break;
                 default:
                     System.out.println("Menu tidak tersedia!");
-                    continue;
+                    continue;   // kembali ke do while
             }
 
             System.out.print("Masukkan jumlah: ");
@@ -83,9 +83,7 @@ public class Day74 {
                 System.out.print("Pilih: ");
                 int pilihAkhir = sc.nextInt();
 
-                if (pilihAkhir == 1) {
-                    continue;
-                } else {
+                if (pilihAkhir != 1) {
                     System.out.println("\n=== STRUK ===");
                     System.out.println(daftarPesanan);
                     System.out.println("TOTAL BELANJA: Rp" + totalBelanja);
@@ -93,7 +91,8 @@ public class Day74 {
                     return;
                 }
             }
-        }
+
+        } while (lanjutPesan);
 
         System.out.println("\n=== STRUK ===");
         System.out.println(daftarPesanan);
