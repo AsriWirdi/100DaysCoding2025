@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Day75 {
   public static void main(String[] args) {
     /*
@@ -13,3 +11,4 @@ public class Day75 {
     System.out.println(nama.toLowerCase());
   }
 }
+
