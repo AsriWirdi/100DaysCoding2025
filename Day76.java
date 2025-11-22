@@ -5,9 +5,10 @@ public class Day76 {
      * Day 76 : Method String untuk Pengecekan (equals(), equalIgnoreCase(), contains(), isEmpty()).
      */
 
-    String nama = "Asri";
-    System.out.println(nama.equals("asri"));
-    System.out.println(nama.equalsIgnoreCase("asri"));
+    String nama = "Asri Wirdi";
+    System.out.println(nama.equals("asri wirdi"));
+    System.out.println(nama.equalsIgnoreCase("asri wirdi"));
+    System.out.println(nama.contains("Wirdi"));
     System.out.println(nama.isEmpty());
   }
 }
