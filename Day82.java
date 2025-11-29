@@ -4,8 +4,9 @@ public class Day82 {
   public static void main(String[] args) {
     /*
      * 100 Days Of Coding 2025
-     * Day 81 : Latihan: Akses Elemen Array Dengan Indeks
+     * Day 82 : Latihan: Mengisi Elemen Array dan Menampilkan semua elemen Array dengan Perulangan
      */
+
     Scanner sc = new Scanner(System.in);
 
     int[] angka = new int[5];
