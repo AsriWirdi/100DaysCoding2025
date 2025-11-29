@@ -4,7 +4,7 @@ public class Day83 {
   public static void main(String[] args) {
     /*
      * 100 Days Of Coding 2025
-     * Day 82 : Latihan: Menjumlahkan Elemen Array
+     * Day 83 : Latihan: Menjumlahkan Elemen Array
      */
     Scanner sc = new Scanner(System.in);
 
@@ -50,3 +50,4 @@ public class Day83 {
 
   }
 }
+
